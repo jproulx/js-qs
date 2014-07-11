@@ -35,13 +35,13 @@
   },
   "homepage": "https://github.com/jproulx/js-qs",
   "devDependencies": {
-    "blanket": "^1.1.6",
+    "blanket": "~1.1.6",
     "codeclimate-test-reporter": "0.0.3",
-    "coveralls": "^2.11.1",
-    "jshint": "^2.5.2",
-    "mocha": "^1.20.1",
+    "coveralls": "~2.11.1",
+    "jshint": "~2.5.2",
+    "mocha": "~1.20.1",
     "mocha-lcov-reporter": "0.0.1",
-    "should": "^4.0.4",
-    "travis-cov": "^0.2.5"
+    "should": "~4.0.4",
+    "travis-cov": "~0.2.5"
   }
 }
