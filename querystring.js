@@ -141,4 +141,4 @@
     } else {
         this[name] = QueryString;
     }
-}).call(this, 'querystring', 'encodeURIComponent', 'decodeURIComponent', '&', '=');
+}).call(this, 'querystring', encodeURIComponent, decodeURIComponent, '&', '=');
