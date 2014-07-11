@@ -17,7 +17,7 @@ test-codeclimate:
 	@NODE_ENV=test ./node_modules/.bin/mocha -u tdd \
 		--require blanket \
 		--reporter mocha-lcov-reporter \
-	| CODECLIMATE_REPO_TOKEN=adf6c7b92f4cf913d8c42e7add4f1d37352502cb782aab49e51ef1e577b114ac ./node_modules/.bin/codeclimate
+	| CODECLIMATE_REPO_TOKEN=b348688e612a06be370f66c95c24c55da0fe7852b850b2d3a98e8f065a95f05d ./node_modules/.bin/codeclimate
 
 test-coveralls:
 	@NODE_ENV=test YOURPACKAGE_COVERAGE=1 ./node_modules/.bin/mocha -u tdd \
